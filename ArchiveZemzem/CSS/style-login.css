@@ -1,0 +1,99 @@
+body {
+    margin: 0px;
+    height: 100vh;
+    width: 100vw;
+    background-color: #f7ce00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#Zemzem-logo {
+    height: 320px;
+    width: 320px;
+}
+.login-container {
+    height: 500px;
+    width: 440px;
+    border: 0.5px black solid;
+    border-radius: 30px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly ;
+    
+}
+form {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly ;
+}
+#password_incorrect{
+    z-index: 1;
+    margin: 5px;
+    font-size: 13px;
+    color: #f02849;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    display: none;
+}
+#password_incorrect a {
+    color: #f02849  !important ; 
+    font-weight: 600;
+}
+.input-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+}
+.input_class  {
+    margin: 3px;
+    padding: 0 8px;
+    height: 35px;
+    width: 300px;
+    border: 1px #d7d5d5 solid;
+    background-color:  #f0f0f0;
+}
+
+button {
+    height: 35px;
+    width: 150px;
+    border: 2.5px #727476  solid;
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #e5017d;
+    color: white;
+}
+.Remember {
+    width: 100%;
+    margin: 5px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+}
+
+#Remember_password {
+    height: 18px;
+    width: 18px;
+    border: 1px solid #d7dade;
+    border-radius: 4px;
+    margin-bottom: 0px;
+}
+label {
+    cursor: pointer;
+    line-height: 20px;
+    font-size: 15px;
+    margin-left: 5px;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    text-transform: capitalize;
+    color: #727476;
+
+}
+
+
